@@ -701,14 +701,18 @@ footer {
   position: absolute;
   bottom: 11px;
   left: 12px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .recall-form input {
   padding-left: 42px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .recall-form input:focus,
 .recall-form textarea:focus,
 .recall-form input:focus + svg {
-  outline-color: transparent;
+  outline: none;
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -735,12 +739,16 @@ footer {
   width: 15px;
   height: 15px;
   left: 14px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .agreements .checkbox-svg {
   position: absolute;
   top: 0;
   left: 0;
   fill: transparent;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .recall-form .agreements a {
