@@ -1,3 +1,35 @@
+/* fonts*/
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/Roboto/400.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/Roboto/500.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/Roboto/700.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/Roboto/900.ttf');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway/700.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* Colors
 primary title text(black)      #212121
 primary text(grey)             #757575
